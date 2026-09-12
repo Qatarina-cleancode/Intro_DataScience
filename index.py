@@ -24,7 +24,7 @@ sns.set_theme(style="whitegrid")
 # Set global Seaborn style 
 sns.set_theme(style="whitegrid") 
 
-# 4.isualization 1: Time-Series Line Plot across regions 
+# 4.Visualization 1: Time-Series Line Plot across regions 
 plt.figure(figsize=(10, 5)) 
 sns.lineplot(data=df_regions, x='Period', y='Value', hue='Location', marker='o') 
 plt.title("Stunting Prevalence Trends Over Time by Region (2016-2024)") 
